@@ -1,0 +1,18 @@
+{
+  "resources/js/Pages/Home.vue": {
+    "file": "assets/Home-9722383c.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Home.vue"
+  },
+  "resources/js/app.js": {
+    "dynamicImports": [
+      "resources/js/Pages/Home.vue"
+    ],
+    "file": "assets/app-adf1364f.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
