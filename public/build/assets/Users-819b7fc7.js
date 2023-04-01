@@ -1,0 +1,1 @@
+import{_ as e}from"./Nav-75e0516e.js";import{o as s,c as a,b as r,F as t,a as o}from"./app-17352d0a.js";const c=o("h1",null,"Users",-1),u={name:"Users",setup(n){return(_,m)=>(s(),a(t,null,[c,r(e)],64))}};export{u as default};

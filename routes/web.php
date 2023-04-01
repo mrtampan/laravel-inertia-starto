@@ -18,6 +18,28 @@ use Inertia\Inertia;
 //     return view('welcome');
 // });
 
+// Route::get('/', function () {
+//     return Inertia::render('Home', [
+//         'name' => 'mrtampan',
+//         'frameworks' => [
+//             'laravel', 'vue', 'inertia'
+//         ]
+//     ]);
+// });
+
 Route::get('/', function () {
     return Inertia::render('Home');
+});
+
+Route::get('/users', function () {
+    return Inertia::render('Users', [
+        'time' => now()->toTimeString()
+    ]);
+});
+
+Route::get('/settings', function () {
+    return Inertia::render('Settings');
+});
+
+Route::post('/logout', function () {
 });

@@ -1,0 +1,1 @@
+import{_ as a}from"./Nav-75e0516e.js";import{o,c as t,a as r,t as s,b as n,F as c}from"./app-17352d0a.js";const i={name:"Home",setup(l){return(e,m)=>(o(),t(c,null,[r("h1",null,"Hello "+s(e.name),1),n(a)],64))}};export{i as default};

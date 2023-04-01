@@ -1,17 +1,44 @@
 {
-  "resources/js/Pages/Home.vue": {
-    "file": "assets/Home-9722383c.js",
+  "_Nav-75e0516e.js": {
+    "file": "assets/Nav-75e0516e.js",
     "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/Home.vue": {
+    "file": "assets/Home-ffffe1d4.js",
+    "imports": [
+      "_Nav-75e0516e.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Home.vue"
   },
+  "resources/js/Pages/Settings.vue": {
+    "file": "assets/Settings-9f574c81.js",
+    "imports": [
+      "_Nav-75e0516e.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Settings.vue"
+  },
+  "resources/js/Pages/Users.vue": {
+    "file": "assets/Users-819b7fc7.js",
+    "imports": [
+      "_Nav-75e0516e.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Users.vue"
+  },
   "resources/js/app.js": {
     "dynamicImports": [
-      "resources/js/Pages/Home.vue"
+      "resources/js/Pages/Home.vue",
+      "resources/js/Pages/Settings.vue",
+      "resources/js/Pages/Users.vue"
     ],
-    "file": "assets/app-adf1364f.js",
+    "file": "assets/app-17352d0a.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }
